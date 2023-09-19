@@ -1,0 +1,80 @@
+.recommendations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card-title {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.title {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px 10px 0 10px;
+}
+.card .movie_details {
+  transform-origin: 0 100%;
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  background-color: #373b3ecf;
+  transform: scaleY(0);
+}
+.card:hover .movie_details {
+  transform: scaleY(1);
+  transition: transform 0.2s linear;
+}
+.card:hover .card-title {
+  display: none;
+}
+.year_runtime {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.year_runtime h6 {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.card {
+  width: 15rem;
+  margin-top: 25px;
+  color: #dae5e4a3;
+}
+.story {
+  padding: 0 20px;
+}
+.more_info {
+  bottom: 0;
+  position: absolute;
+  margin: 20px;
+}
+.btn {
+  background-color: inherit;
+  color: #dae5e4a3;
+  border-radius: 8px;
+  padding: 6px;
+}
+.btn:hover {
+  background-color: #dae5e4a3;
+  color: black;
+}
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+.genre {
+  background-color: #dae5e4a3;
+  color: black;
+  border: 1px solid #dae5e4a3;
+  border-radius: 5px;
+  padding: 3px;
+}

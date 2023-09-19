@@ -1,0 +1,5 @@
+streamlit 
+pandas
+requests
+numpy
+click==8.1.3
